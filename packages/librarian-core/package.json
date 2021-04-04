@@ -1,0 +1,33 @@
+{
+  "name": "@librarian/core",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Louis de Courcel <einsenhorn@gmail.com>",
+  "homepage": "https://github.com/Einsenhorn/librarian#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Einsenhorn/librarian.git"
+  },
+  "scripts": {
+    "build-lib": "babel lib -d dist",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Einsenhorn/librarian/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2"
+  }
+}
