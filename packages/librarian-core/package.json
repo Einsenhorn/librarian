@@ -27,11 +27,6 @@
     "url": "https://github.com/Einsenhorn/librarian/issues"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.14",
-    "@babel/core": "^7.13.14",
-    "@babel/preset-env": "^7.13.12",
-    "@babel/preset-typescript": "^7.13.0",
-    "babel-loader": "^8.2.2",
     "typescript": "^4.2.3"
   }
 }
