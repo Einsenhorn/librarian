@@ -1,7 +1,7 @@
 'use strict';
 
 export default class LibrarianConsolePlugin {
-    log(message) {
+    log(message: any) {
         console.log(message);
     }
 }
