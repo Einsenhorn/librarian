@@ -1,7 +1,3 @@
 'use strict';
 
-export default class LibrarianConsolePlugin {
-    log(message: any) {
-        console.log(message);
-    }
-}
+export { default } from './librarian-plugin-console';

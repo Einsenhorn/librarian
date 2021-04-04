@@ -26,6 +26,9 @@
   "bugs": {
     "url": "https://github.com/Einsenhorn/librarian/issues"
   },
+  "dependencies": {
+    "@librarian/core": "0.0.1"
+  },
   "devDependencies": {
     "typescript": "^4.2.3"
   }
