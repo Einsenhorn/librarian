@@ -13,6 +13,7 @@
     "all": "npm run build-lib && npm run build && cls && npm run launch",
     "build": "lerna run build-sandbox",
     "build-lib": "lerna run build-lib",
+    "clean": "lerna run clean",
     "launch": "lerna run launch --stream"
   }
 }

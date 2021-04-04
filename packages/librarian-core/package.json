@@ -19,7 +19,8 @@
     "url": "git+https://github.com/Einsenhorn/librarian.git"
   },
   "scripts": {
-    "build-lib": "tsc",
+    "build-lib": "tsc --build",
+    "clean": "tsc --build --clean",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
