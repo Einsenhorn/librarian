@@ -1,0 +1,36 @@
+{
+  "name": "sandbox",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Einsenhorn <einsenhorn@gmail.com>",
+  "homepage": "https://github.com/Einsenhorn/librarian#readme",
+  "license": "MIT",
+  "main": "build/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Einsenhorn/librarian.git"
+  },
+  "scripts": {
+    "build-sandbox": "tsc",
+    "clean": "tsc --build --clean",
+    "launch": "node build/index.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Einsenhorn/librarian/issues"
+  },
+  "dependencies": {
+    "@librarian/core": "0.0.1",
+    "@librarian/plugin-console": "0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
