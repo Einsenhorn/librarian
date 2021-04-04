@@ -12,7 +12,10 @@
         "alwaysStrict": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
+        "forceConsistentCasingInFileNames": true,
+
+
+        "unified-signatures": false
     },
     "include": ["packages"],
     "exclude": ["node_modules"]

@@ -1,5 +1,3 @@
-'use strict';
-
 import Librarian from '@librarian/core';
 import LibrarianPluginConsole from '@librarian/plugin-console';
 

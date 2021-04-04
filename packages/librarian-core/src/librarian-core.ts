@@ -1,5 +1,3 @@
-'use strict';
-
 import Plugin from './plugin';
 
 export default class LibrarianCore {
